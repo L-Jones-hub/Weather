@@ -31,8 +31,9 @@ p {
   left: 200px;
 }
 .units {
-  font-size: 20px;
   text-decoration: none;
+  position: relative;
+  top: -34px;
 }
 .float-left {
   display: block;
