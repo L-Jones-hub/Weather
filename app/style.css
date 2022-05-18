@@ -51,17 +51,10 @@ li {
   position: relative;
   top: -34px;
 }
-.current.temperature {
+.current-temperature {
   display: block;
   margin: 0 auto;
   position: fixed;
   top: 50%;
-  left: 50%;
-}
-.currentIcon {
-  display: block;
-  margin: 0 auto;
-  position: fixed;
-  top: 50%;
-  left: 50%;
+  left: 70%;
 }
