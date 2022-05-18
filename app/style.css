@@ -58,8 +58,3 @@ li {
   top: 20%;
   left: 40%;
 }
-.col-6 {
-  display: block;
-  margin: 0 auto;
-  position: fixed;
-}
