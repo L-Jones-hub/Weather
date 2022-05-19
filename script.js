@@ -122,8 +122,8 @@ function displayCelsiusTemperature(event) {
   temperatureElement.innerHTML = Math.round(celsiusTemperature);
 }
 
-let form = document.querySelector("#search-form");
-form.addEventListener("submit", handleSubmit);
+let searchForm = document.querySelector("#search-form");
+searchForm.addEventListener("submit", handleSubmit);
 
 let celsiusTemperature = null;
 

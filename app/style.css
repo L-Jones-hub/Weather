@@ -32,31 +32,17 @@ li {
   line-height: 1.5;
   padding: 0;
 }
-#icon {
-  position: relative;
-  top: 5px;
-  left: 170px;
-}
 .current-temperature {
   font-weight: 400;
 }
 .container {
   border: 4px solid;
-  padding: 20px;
+  padding: 20px 20px;
   margin-top: 30px;
+  margin-bottom: 30px;
   max-width: 600px;
+  max-height: 500px;
   background-color: white;
-}
-.current {
-  text-align: center;
-  border-right: 1px solid black;
-  border-left: 1px solid black;
-  border-radius: 4px;
-  height: 75px;
-  position: relative;
-  margin: 0 auto;
-  background-color: rgb(218, 239, 254, 0.5);
-  padding: 0;
 }
 .temperature {
   font-size: 70px;
@@ -66,6 +52,21 @@ li {
   position: relative;
   top: -100px;
   left: 10px;
+}
+#icon {
+  position: relative;
+  top: 5px;
+  left: 170px;
+}
+#forecast {
+  text-align: center;
+  border-radius: 4px;
+  height: 90px;
+  position: relative;
+  margin: 0 auto;
+  background-color: rgb(218, 239, 254, 0.5);
+  padding: 0;
+  top: -100px;
 }
 #units {
   position: relative;
@@ -81,7 +82,10 @@ li {
 }
 #source {
   position: relative;
-  left: 55px;
+  left: -20px;
   padding: 0;
   font-size: small;
+}
+#description {
+  text-transform: capitalize;
 }
