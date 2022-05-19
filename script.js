@@ -1,13 +1,11 @@
 function formatDate(timestamp) {
   let date = new Date(timestamp);
   let hours = date.getHours();
-  if (hours < 10) {
-    hours = `0${hours}`;
-  }
   let minutes = date.getMinutes();
-  if (minutes < 10) {
-    minutes = `0${minutes}`;
-  }
+  minutes = minutes > 9 ? minutes : "0" + minutes;
+  hours = hours % 12 || 12;
+  let timeDate = document.querySelector("#date");
+  timeDate.innerHTML = date + " " + hours + ":" + minutes;
 
   let days = [
     "Sunday",
