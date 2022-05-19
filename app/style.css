@@ -29,10 +29,10 @@ li {
   font-size: 16px;
   font-weight: 200;
   height: 20px;
-  line-height: 1;
+  line-height: 1.5;
   padding: 0;
 }
-img {
+img.icon {
   position: relative;
   top: 5px;
   left: 160px;
@@ -55,7 +55,8 @@ img {
   height: 75px;
   position: relative;
   margin: 0 auto;
-  background-color: #daf0ff;
+  background-color: rgb(218, 239, 254, 0.5);
+
   padding: 0;
 }
 .temperature {
@@ -71,5 +72,4 @@ img {
   position: relative;
   top: -180px;
   left: 330px;
-  text-decoration: none;
 }
